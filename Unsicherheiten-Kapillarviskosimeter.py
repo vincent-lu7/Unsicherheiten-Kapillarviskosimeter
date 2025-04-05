@@ -115,4 +115,4 @@ for result in [result1, result2]:
     print(f"Stroemungswiderstand W = （{result['W']:.3e} ± {result['delta_W']:.3e}）Pa·s/m³")
     print(f"Viskositaet η = （{result['eta']:.3e} ± {result['delta_eta']:.3e}）Pa·s")
     print(f"Unsicherheiten = {result['delta_eta']/result['eta']*100:.1f}%")
-    print(f"Korrelationskoeffizient R² = {result['r_value']**2:.4f}")
+    print(f"Bestimmtheitsmaß R² = {result['r_value']**2:.4f}")
